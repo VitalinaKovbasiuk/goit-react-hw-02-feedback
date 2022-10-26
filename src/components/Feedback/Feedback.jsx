@@ -42,7 +42,7 @@ export default class Feedback extends Component {
   render() {
     return (
       <FeedbackContainer>
-        <Section title='Please leave feedback 🥺'>
+        <Section title='Please leave feedback'>
             <FeedbackOption
               handleGood={this.clickOnGood}
               handleNeutral={this.clickOnNeutral}
@@ -61,7 +61,7 @@ export default class Feedback extends Component {
             />
           </section>
         ) : (
-          <Notification message="There is no feedback 😔" />
+          <Notification message="There is no feedback" />
         )}
       </FeedbackContainer>
     );
