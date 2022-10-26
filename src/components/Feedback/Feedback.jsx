@@ -51,15 +51,15 @@ export default class Feedback extends Component {
         </Section>
 
         {this.totalFeedback() ? (
-          <section>
-            <Statistics
+          <Section title='Statistics'>
+            <Statistics 
               good={this.state.good}
               neutral={this.state.neutral}
               bad={this.state.bad}
               total={this.totalFeedback()}
               goodPercent={this.goodPercent()}
             />
-          </section>
+          </Section>
         ) : (
           <Notification message="There is no feedback" />
         )}
