@@ -14,7 +14,7 @@ export const ButtonGood = styled.button`
   background-color: papayawhip;
   border-radius: 5px;
   border: 3px solid DarkRed;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
   cursor: pointer;
   border-style: double;
@@ -33,7 +33,7 @@ export const ButtonNeutral = styled.button`
   background-color: papayawhip;
   border-radius: 5px;
   border: 3px solid DarkRed;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
   cursor: pointer;
   border-style: double;
@@ -51,7 +51,7 @@ export const ButtonBad = styled.button`
   background-color: papayawhip;
   border-radius: 5px;
   border: 3px solid DarkRed;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
   cursor: pointer;
   border-style: double;
