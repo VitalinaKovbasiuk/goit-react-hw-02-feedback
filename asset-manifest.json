@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/VitalinaKovbasiuk/goit-react-hw-02-feedback.git/static/css/main.80e3131f.css",
-    "main.js": "/VitalinaKovbasiuk/goit-react-hw-02-feedback.git/static/js/main.f47c8234.js",
+    "main.js": "/VitalinaKovbasiuk/goit-react-hw-02-feedback.git/static/js/main.c12426c4.js",
     "index.html": "/VitalinaKovbasiuk/goit-react-hw-02-feedback.git/index.html",
     "main.80e3131f.css.map": "/VitalinaKovbasiuk/goit-react-hw-02-feedback.git/static/css/main.80e3131f.css.map",
-    "main.f47c8234.js.map": "/VitalinaKovbasiuk/goit-react-hw-02-feedback.git/static/js/main.f47c8234.js.map"
+    "main.c12426c4.js.map": "/VitalinaKovbasiuk/goit-react-hw-02-feedback.git/static/js/main.c12426c4.js.map"
   },
   "entrypoints": [
     "static/css/main.80e3131f.css",
-    "static/js/main.f47c8234.js"
+    "static/js/main.c12426c4.js"
   ]
 }
