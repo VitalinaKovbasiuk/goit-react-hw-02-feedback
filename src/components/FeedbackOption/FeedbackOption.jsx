@@ -1,4 +1,9 @@
-import { ButtonContainer,ButtonGood,ButtonNeutral,ButtonBad } from "./FeedbackOption.styled";
+import {
+  ButtonContainer,
+  ButtonGood,
+  ButtonNeutral,
+  ButtonBad,
+} from './FeedbackOption.styled';
 
 export default function FeedbackOption({
   handleGood,
@@ -7,9 +12,11 @@ export default function FeedbackOption({
 }) {
   return (
     <ButtonContainer>
-      <ButtonGood onClick={handleGood}>Good</ButtonGood>
-      <ButtonNeutral onClick={handleNeutral}>Neutral</ButtonNeutral>
-      <ButtonBad onClick={handleBad}>Bad</ButtonBad>
+      <ButtonGood onClick={handleGood}>😆 Good ᕙ(`▿´)ᕗ</ButtonGood>
+      <ButtonNeutral onClick={handleNeutral}>
+        😐 Neutral v( ‘.’ )v
+      </ButtonNeutral>
+      <ButtonBad onClick={handleBad}>😡 Bad ᕙ( ︡'︡益'︠)ง</ButtonBad>
     </ButtonContainer>
   );
 }

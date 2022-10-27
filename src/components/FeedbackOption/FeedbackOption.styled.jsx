@@ -1,36 +1,63 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const ButtonContainer = styled.div`
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
   padding: 10px;
 `;
 
 export const ButtonGood = styled.button`
   margin: 0 10px;
-  padding: 3px 6px;
+  padding: 13px 16px;
   font-weight: 600;
   background: transparent;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: papayawhip;
   border-radius: 5px;
-  border: 1px solid green;
+  border: 3px solid DarkRed;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: double;
+  color: green;
+
+  &:hover {
+    box-shadow: rgb(0 0 0 / 15%) 0px 4px 4px;
+  }
 `;
 
 export const ButtonNeutral = styled.button`
   margin: 0 7px;
-  padding: 3px 6px;
+  padding: 13px 16px;
   font-weight: 600;
   background: transparent;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: papayawhip;
   border-radius: 5px;
-  border: 1px solid orange;
+  border: 3px solid DarkRed;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: double;
+  color: orange;
+
+  &:hover {
+    box-shadow: rgb(0 0 0 / 15%) 0px 4px 4px;
+  }
 `;
 export const ButtonBad = styled.button`
   margin: 0 10px;
-  padding: 3px 6px;
+  padding: 13px 16px;
   font-weight: 600;
   background: transparent;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: papayawhip;
   border-radius: 5px;
-  border: 1px solid red;
+  border: 3px solid DarkRed;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: double;
+  color: red;
+
+  &:hover {
+    box-shadow: rgb(0 0 0 / 15%) 0px 4px 4px;
+  }
 `;

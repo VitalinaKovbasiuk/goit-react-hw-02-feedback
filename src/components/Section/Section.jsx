@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { Title } from './Section.styled';
 
-export default function Section({title, children}) {
+export default function Section({ title, children }) {
   return (
     <section>
-      <h1>{title}</h1>
+      <Title>{title}</Title>
       {children}
     </section>
-  )
+  );
 }
