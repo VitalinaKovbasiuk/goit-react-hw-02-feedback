@@ -6,7 +6,7 @@ export const ButtonContainer = styled.div`
   padding: 10px;
 `;
 
-export const ButtonGood = styled.button`
+export const Button = styled.button`
   margin: 0 10px;
   padding: 13px 16px;
   font-weight: 600;
@@ -25,39 +25,4 @@ export const ButtonGood = styled.button`
   }
 `;
 
-export const ButtonNeutral = styled.button`
-  margin: 0 7px;
-  padding: 13px 16px;
-  font-weight: 600;
-  background: transparent;
-  background-color: papayawhip;
-  border-radius: 5px;
-  border: 3px solid DarkRed;
-  font-size: 18px;
-  text-transform: uppercase;
-  cursor: pointer;
-  border-style: double;
-  color: orange;
-
-  &:hover {
-    box-shadow: rgb(0 0 0 / 15%) 0px 4px 4px;
-  }
-`;
-export const ButtonBad = styled.button`
-  margin: 0 10px;
-  padding: 13px 16px;
-  font-weight: 600;
-  background: transparent;
-  background-color: papayawhip;
-  border-radius: 5px;
-  border: 3px solid DarkRed;
-  font-size: 18px;
-  text-transform: uppercase;
-  cursor: pointer;
-  border-style: double;
-  color: red;
-
-  &:hover {
-    box-shadow: rgb(0 0 0 / 15%) 0px 4px 4px;
-  }
-`;
+// options={['good', 'neutral', 'bad']}
